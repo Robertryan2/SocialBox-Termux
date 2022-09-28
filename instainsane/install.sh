@@ -3,7 +3,7 @@
 #Instagram: @thelinuxchoice
 trap 'echo exiting cleanly...; exit 1;' SIGINT SIGTSTP
 
-checkroot() {
+checkr
 
 #if [[ "$(id -u)" -ne 0 ]]; then
    printf "\e[1;77mWelcome!\n\e[0m"
